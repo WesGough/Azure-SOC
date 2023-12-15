@@ -32,9 +32,12 @@ For the "BEFORE" metrics, all resources were originally deployed, exposed to the
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
-![Linux Syslog Auth Failures](https://i.imgur.com/G1YgZt6.png)<br>
-![Windows RDP/SMB Auth Failures](https://i.imgur.com/ESr9Dlv.png)<br>
+![NSG Allowed Inbound Malicious Flows]![NSG-Malicious-Allowed-In](https://github.com/WesGough/Azure-SOC/assets/150361198/c2bfdcd5-3a89-4c78-9c71-2219b83189f5)
+<br>
+![Linux Syslog Auth Failures]![Syslog-SSH-Auth-Fail](https://github.com/WesGough/Azure-SOC/assets/150361198/43c4b9c0-01d0-4e2d-90d2-41b9ac632d68)
+<br>
+![Windows RDP/SMB Auth Failures]![Windows-RDP-SMB-Auth-Fail](https://github.com/WesGough/Azure-SOC/assets/150361198/9aa52b8c-604a-4903-a4c4-da13223ee410)
+<br>
 
 ## Metrics Before Hardening / Security Controls
 
